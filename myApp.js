@@ -48,9 +48,6 @@ app.get("/", (req, res) => {
     console.log(req.body)
     res.sendFile(__dirname + "/views/index.html")
 });
-// app.get("/", (req, res) =>
-//     res.sendFile("/home/rommel/Descargas/boilerplate-express/views/index.html")
-// );
 
 
 
